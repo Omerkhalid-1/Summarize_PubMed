@@ -41,16 +41,16 @@
 
 ### All the Task are done using _Transforemers_ make sure to understand them before attempting using the repo.
 
-## Project Structure 
-project-root/
-│
-├── app.py             # Main Flask application file
-├── README.md          # This file, providing project documentation
-├── static/            # Static assets (CSS, JS, images)
-└── templates/         # HTML templates for Flask
-    ├── index.html     # Homepage template
-    ├── login.html     # Login page template
-    ├── signup.html    # Sign up page template
-    ├── summary.html   # Summary page template
-    └── base.html      # Base template (shared header/footer)
+##### Project Structure 
+#### project-root/
+#### │
+#### ├── app.py             # Main Flask application file
+#### ├── README.md          # This file, providing project documentation
+#### ├── static/            # Static assets (CSS, JS, images)
+#### └── templates/         # HTML templates for Flask
+####     ├── index.html     # Homepage template
+####     ├── login.html     # Login page template
+####     ├── signup.html    # Sign up page template
+####     ├── summary.html   # Summary page template
+####     └── base.html      # Base template (shared header/footer)
 
