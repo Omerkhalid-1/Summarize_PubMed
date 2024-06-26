@@ -14,11 +14,11 @@
 ## Task 2 
 #### Fine-tune the model according to the PubMed dataset. The model used was text_summarization
 #### First the dataset was loaded using the following command
-####         _ _   document_dataset = load_dataset("ccdv/pubmed-summarization", "document") _ _
-####         _ _    section_dataset = load_dataset("ccdv/pubmed-summarization", "section") _ _
+####           _ document_dataset = load_dataset("ccdv/pubmed-summarization", "document") _
+####            _section_dataset = load_dataset("ccdv/pubmed-summarization", "section") _
 
 #### Then the  tokenizer is loaded.
-###                   tokenizer = AutoTokenizer.from_pretrained("Falconsai/text_summarization")
+####                _tokenizer = AutoTokenizer.from_pretrained("Falconsai/text_summarization")_
 
 #### AutoModelForSeq2SeqLM is used to fine tune the model.
 
@@ -27,16 +27,16 @@
 
 ### Installation
 #### 1.Clone the repository:
-##                      git clone https://github.com/OmerKhalid-1/Summarize_PubMed.git 
+##                      _git clone https://github.com/OmerKhalid-1/Summarize_PubMed.git _
 ## cd Summarize_PubMed
 
 
 ### 2. Install dependencies:
 #### Ensure you have Python 3.x installed. Use pip (or pip3 for Python 3) to install required packages:
-##                       pip install Flask transformers
+####                       _pip install Flask transformers_
 
 ### 3. Download and run the application:
 #### Navigate to the project directory and run the Flask application:
-##                       python app.py  
+####                      _ python app.py _ 
 
 ### All the 
