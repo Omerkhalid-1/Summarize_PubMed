@@ -27,16 +27,30 @@
 
 ### Installation
 #### 1.Clone the repository:
-##                      _git clone https://github.com/OmerKhalid-1/Summarize_PubMed.git _
+####                   _git clone https://github.com/OmerKhalid-1/Summarize_PubMed.git _
 ## cd Summarize_PubMed
 
 
 ### 2. Install dependencies:
-#### Ensure you have Python 3.x installed. Use pip (or pip3 for Python 3) to install required packages:
+#### Ensure you have Python 3 is installed. Use pip (or pip3 for Python 3) to install required packages:
 ####                       _pip install Flask transformers_
 
 ### 3. Download and run the application:
 #### Navigate to the project directory and run the Flask application:
 ####                      _ python app.py _ 
 
-### All the 
+### All the Task are done using _Transforemers_ make sure to understand them before attempting using the repo.
+
+## Project Structure 
+project-root/
+│
+├── app.py             # Main Flask application file
+├── README.md          # This file, providing project documentation
+├── static/            # Static assets (CSS, JS, images)
+└── templates/         # HTML templates for Flask
+    ├── index.html     # Homepage template
+    ├── login.html     # Login page template
+    ├── signup.html    # Sign up page template
+    ├── summary.html   # Summary page template
+    └── base.html      # Base template (shared header/footer)
+
