@@ -1,0 +1,22 @@
+<!-- templates/index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enter PubMed Article</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='Style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Enter PubMed Article</h1>
+        <form method="POST" action="{{ url_for('summarize') }}">
+            <label for="pubmed_text">Enter PubMed Article:</label>
+            <textarea id="pubmed_text" name="pubmed_text" rows="10" cols="50" required></textarea>
+            <br>
+            <button type="submit">Summarize</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!-- templates/summary.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PubMed Article Summary</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>PubMed Article Summary</h1>
+        <h2>Original Article:</h2>
+        <p>{{ original_text }}</p>
+        
+        <h2>Summarized Version:</h2>
+        <p>{{ summarized_text }}</p>
+        
+        <a href="/">Back to Enter PubMed Article</a>
+    </div>
+</body>
+</html>
