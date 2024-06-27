@@ -18,7 +18,7 @@ First the dataset was loaded using the following command
 Then the  tokenizer is loaded.
 ####                _tokenizer = AutoTokenizer.from_pretrained("Falconsai/text_summarization")_
 
-AutoModelForSeq2SeqLM is used to fine tune the model.
+AutoModelForSeq2SeqLM is used to fine-tune the model.
 
 
 
@@ -37,13 +37,13 @@ Ensure you have Python 3 installed. Use pip (or pip3 for Python 3) to install pa
 Navigate to the project directory and run the Flask application:
 ####                      _ python app.py _ 
 
-All the Task are done using _Transforemers_ make sure to understand them before attempting using the repo.
+All Task are done using _Transforemers_ make sure to understand them before using the repo.
 
 ##### Project Structure 
 #### project-root/
 #### │
 #### ├── app.py             # Main Flask application file
-#### ├── README.md          # This file, providing project documentation
+#### ├── README.md          # This file, provides project documentation
 #### ├── static/            # Static assets (CSS, JS, images)
 #### └── templates/         # HTML templates for Flask
 ####   &nbsp;&nbsp;&nbsp;&nbsp;  ├── index.html     # Homepage template
