@@ -1,26 +1,24 @@
 #                        PubMed Article Summarizer Web Application 
-#### This web application allows users to input PubMed articles and receive summarized versions using a text summarization model. Additionally, users can sign up for accounts to access personalized features.
-####  Summarizes PubMed articles using a pre-trained Seq2Seq model from Hugging Face Transformers.
-####  Supports both extractive and abstractive summarization techniques.
+This web application allows users to input PubMed articles and receive summarized versions using a text summarization model. Additionally, users can sign up for accounts to access personalized features.
+  Summarizes PubMed articles using a pre-trained Seq2Seq model from Hugging Face Transformers.
+  Supports both extractive and abstractive summarization techniques.
 
 
-
-## This project includes Task1 and Task3. The details about the tasks are mentioned below:
 ## Task 1
-#### Load the dataset pubmed-summarization from hugging face. [text]([url](https://huggingface.co/datasets/ccdv/pubmed-summarization?row=1))
-#### Preprocess the dataset by changing the dataset into lowercase alphabets and removing the special characters.
-#### Store some chunks of the original and summarized data in json files.
+Load the dataset pubmed-summarization from hugging face. [text]([url](https://huggingface.co/datasets/ccdv/pubmed-summarization?row=1))
+Preprocess the dataset by changing the dataset into lowercase alphabets and removing the special characters.
+Store some chunks of the original and summarized data in json files.
 
 ## Task 2 
-#### Fine-tune the model according to the PubMed dataset. The model used was text_summarization
-#### First the dataset was loaded using the following command
+Fine-tune the model according to the PubMed dataset. The model used was text_summarization
+First the dataset was loaded using the following command
 ####           _ document_dataset = load_dataset("ccdv/pubmed-summarization", "document") _
 ####            _section_dataset = load_dataset("ccdv/pubmed-summarization", "section") _
 
-#### Then the  tokenizer is loaded.
+Then the  tokenizer is loaded.
 ####                _tokenizer = AutoTokenizer.from_pretrained("Falconsai/text_summarization")_
 
-#### AutoModelForSeq2SeqLM is used to fine tune the model.
+AutoModelForSeq2SeqLM is used to fine tune the model.
 
 
 
