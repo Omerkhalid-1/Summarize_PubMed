@@ -23,21 +23,21 @@ AutoModelForSeq2SeqLM is used to fine tune the model.
 
 
 
-### Installation
-#### 1.Clone the repository:
+##  Installation
+#### 1. Clone the repository:
 ####                   _git clone https://github.com/OmerKhalid-1/Summarize_PubMed.git _
 ## cd Summarize_PubMed
 
 
 ### 2. Install dependencies:
-#### Ensure you have Python 3 is installed. Use pip (or pip3 for Python 3) to install required packages:
-####                       _pip install Flask transformers_
+Ensure you have Python 3 installed. Use pip (or pip3 for Python 3) to install packages:
+####                      _pip install Flask transformers_
 
 ### 3. Download and run the application:
-#### Navigate to the project directory and run the Flask application:
+Navigate to the project directory and run the Flask application:
 ####                      _ python app.py _ 
 
-### All the Task are done using _Transforemers_ make sure to understand them before attempting using the repo.
+All the Task are done using _Transforemers_ make sure to understand them before attempting using the repo.
 
 ##### Project Structure 
 #### project-root/
@@ -46,9 +46,9 @@ AutoModelForSeq2SeqLM is used to fine tune the model.
 #### ├── README.md          # This file, providing project documentation
 #### ├── static/            # Static assets (CSS, JS, images)
 #### └── templates/         # HTML templates for Flask
-####     ├── index.html     # Homepage template
-####     ├── login.html     # Login page template
-####     ├── signup.html    # Sign up page template
-####     ├── summary.html   # Summary page template
+####   &nbsp;  ├── index.html     # Homepage template
+####   &nbsp;  ├── login.html     # Login page template
+####   &nbsp;  ├── signup.html    # Sign up page template
+####   &nbsp;  ├── summary.html   # Summary page template
 ####     └── base.html      # Base template (shared header/footer)
 
