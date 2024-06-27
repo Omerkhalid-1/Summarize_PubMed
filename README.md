@@ -46,9 +46,9 @@ All the Task are done using _Transforemers_ make sure to understand them before 
 #### ├── README.md          # This file, providing project documentation
 #### ├── static/            # Static assets (CSS, JS, images)
 #### └── templates/         # HTML templates for Flask
-####   &nbsp;  ├── index.html     # Homepage template
-####   &nbsp;  ├── login.html     # Login page template
-####   &nbsp;  ├── signup.html    # Sign up page template
-####   &nbsp;  ├── summary.html   # Summary page template
-####     └── base.html      # Base template (shared header/footer)
+####   &nbsp;&nbsp;&nbsp;  ├── index.html     # Homepage template
+####   &nbsp; &nbsp;&nbsp; ├── login.html     # Login page template
+####   &nbsp;&nbsp;&nbsp;  ├── signup.html    # Sign up page template
+####   &nbsp; &nbsp;&nbsp; ├── summary.html   # Summary page template
+####    &nbsp;&nbsp;&nbsp; └── base.html      # Base template (shared header/footer)
 
